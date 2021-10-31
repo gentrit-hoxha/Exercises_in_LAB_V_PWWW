@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+
+    font-family: monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+table ,th, td {
+    border: 1px solid black;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+
+
+
