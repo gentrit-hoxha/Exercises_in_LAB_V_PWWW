@@ -51,7 +51,7 @@
      
  }
 
- input, option, select {
+ input, option, select, textarea {
      margin-bottom: 1.2rem;
      border-radius: 5px;
      width: 600px;
@@ -67,8 +67,10 @@
 
  #footer {
      text-align: center;
-     text-indent: 2rem;
-     margin-top: 3rem;
+     letter-spacing: 0.1rem;
+     margin-top: 1rem;
+     font-family: 'Poppins', sans-serif;
+     color: white;
  }
 
  @media only screen and (max-width: 500px){
@@ -103,4 +105,32 @@
 
  #labeli {
      margin-top: 2rem !important;
+ }
+
+ input[type="checkbox"], input[type="radio"] {
+     margin-left: 0.5rem;
+ }
+
+ input[type="submit"] {
+
+     border: none;
+     background-color: green;
+     color: white;
+     
+ }
+
+ input[type="submit"]:hover {
+      cursor: pointer;
+ }
+ 
+
+
+
+ textarea {
+    font-family: 'Poppins', sans-serif;
+
+ }
+
+ .comment-option {
+     margin-top: 1rem;
  }
